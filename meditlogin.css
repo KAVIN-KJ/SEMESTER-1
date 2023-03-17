@@ -1,0 +1,105 @@
+#all
+{
+    background-color: black;
+}
+#heading
+{
+    position: absolute;
+    left: 42%;
+    top: 1cm;
+    color: white;
+}
+#username
+{
+    width: 8cm;
+    border: 2px solid rgb(197, 192, 192);
+    align-items: center;
+}
+#loginform
+{
+    position: absolute;
+    color: white;
+    top: 30%;
+    left: 38%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    padding: 70px 50px;
+    animation: border 10s ease infinite;
+}
+@keyframes border
+{
+    0%
+    {
+        border: 2px solid violet;
+        box-shadow: 0px 0px 30px violet;
+    }
+    20%
+    {
+        border: 2px solid indigo;
+        box-shadow: 0px 0px 30px indigo;
+
+    }
+    40%
+    {
+        border: 2px solid blue;
+        box-shadow: 0px 0px 30px blue;
+
+    }
+    60%
+    {
+        border: 2px solid green;
+        box-shadow: 0px 0px 30px green;
+
+    }
+    80%
+    {
+        border: 2px solid yellow;
+        box-shadow: 0px 0px 30px yellow;
+
+    }
+    100%
+    {
+        border: 2px solid orange;
+        box-shadow: 0px 0px 30px orange;
+
+    }
+}
+h2
+{
+    text-align: center;
+}
+#login
+{
+    position: absolute;
+    border: transparent;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 10px;
+    left: 42%;
+}
+#login:hover{
+    transition: 250ms ease-in;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#help
+{
+    position: absolute;
+    right: 0.5cm;
+    top: 0.5cm;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+
+    background-color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 10px;
+}
+#help:hover{
+    transition: 250ms ease-in;
+    background-color: white;
+    color: black;
+}

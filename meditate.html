@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="meditate.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <title>Meditate</title>
+    </head>
+    <body id="all">
+          <div class="heading"><b>TIME TO RELAX</b></div><br>
+
+          <div id="greet_user"></div>
+          <a href="meditintro.html" id="logout" onclick="logout()">LOGOUT</a>
+        <br>
+        <br><br>
+        <div class="recco">DAILY RECCOMENDATIONS :</div>
+        <br>
+        <br>
+        <br>
+        <div class="pos">
+        <ul class="sngnme">
+            <li class="meditate">MEDITATE.mp3</li>
+            <li class="meditate1">RAIN.mp3</li>
+            <li class="meditate2">SOLITUDE.mp3</li>
+            
+        </ul>
+        <div class="med1">
+        <audio controls name="aud" class="med">
+            <source src="relaxing-music-vol1-124477.mp3" type="audio/mpeg">
+        </audio>
+        <br>
+        <br>
+        <audio controls name="aud" class="med">
+            <source src="rain.mp3.wav" type="audio/mpeg">   
+        </audio>
+        <br>
+        <br>
+        <audio controls name="aud" class="med" src="relaxing-music-vol1-124477.mp3" type="audio/mpeg"></audio></div><br>
+        <p class="vid">MEDITATION VIDEOS</p><br>
+    </div>
+        <iframe class="brightside" width="400" height="230" src="https://www.youtube.com/embed/ayfe4XWCZdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+         <pre class="meddis">
+    <b class="bold">How to Meditate?</b>
+
+                    Meditation not only reduces stress and improves your physical well-being,
+                    it’s also good exercise for the brain. In case you want to change your life for 
+                    the better and improve your health and try meditation but don’t know what to begin with, 
+                    this video is just for you. Our simple guide for beginners will teach you the basics of meditation. 
+        </pre>
+        <br>  
+        <script>
+            let nme=prompt("What is your name ?");
+            document.getElementById('greet_user').innerHTML="HII "+nme+" HOW ARE YOU TODAY ?";
+            function logout()
+            {
+                alert("Do you really want to logout ?");
+            }
+        </script>
+</body>
+</html>
